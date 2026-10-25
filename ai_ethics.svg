@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-labelledby="title desc">
+  <title id="title">Responsible AI use and academic integrity</title>
+  <desc id="desc">A balanced human-centered AI concept shows learning, transparency, and academic integrity.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#111831"/><stop offset=".55" stop-color="#1c3157"/><stop offset="1" stop-color="#075c65"/>
+    </linearGradient>
+    <linearGradient id="mint" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#91ffe3"/><stop offset="1" stop-color="#5ed7ff"/>
+    </linearGradient>
+    <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#a9a2ff"/><stop offset="1" stop-color="#68dfff"/>
+    </linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#d4eeff" stroke-opacity=".06"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="450" rx="26" fill="url(#bg)"/>
+  <rect width="800" height="450" rx="26" fill="url(#grid)"/>
+  <text x="42" y="52" fill="#c4d5f4" font-family="Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="3">A HUMAN-CENTERED APPROACH</text>
+
+  <g fill="none" stroke="#7de9e3" stroke-opacity=".55" stroke-width="2">
+    <path d="M145 150L246 197L320 143L400 186L480 143L554 197L655 150"/>
+    <path d="M145 300L246 253L320 307L400 264L480 307L554 253L655 300"/>
+    <path d="M246 197L246 253M320 143L320 307M480 143L480 307M554 197L554 253"/>
+  </g>
+  <g fill="#a8fff2" filter="url(#glow)">
+    <circle cx="145" cy="150" r="6"/><circle cx="246" cy="197" r="6"/><circle cx="320" cy="143" r="6"/>
+    <circle cx="480" cy="143" r="6"/><circle cx="554" cy="197" r="6"/><circle cx="655" cy="150" r="6"/>
+    <circle cx="145" cy="300" r="6"/><circle cx="246" cy="253" r="6"/><circle cx="320" cy="307" r="6"/>
+    <circle cx="480" cy="307" r="6"/><circle cx="554" cy="253" r="6"/><circle cx="655" cy="300" r="6"/>
+  </g>
+
+  <circle cx="400" cy="225" r="106" fill="#0a1c37" stroke="#a4ffff" stroke-opacity=".6" stroke-width="2"/>
+  <circle cx="400" cy="225" r="89" fill="#17254d" stroke="url(#mint)" stroke-width="3"/>
+  <path d="M400 152L458 174V216C458 254 434 279 400 294C366 279 342 254 342 216V174Z" fill="url(#violet)" stroke="#e4ffff" stroke-width="2"/>
+  <path d="M374 221L392 239L428 198" fill="none" stroke="#10264a" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="400" cy="225" r="113" fill="none" stroke="#85f4df" stroke-opacity=".35" stroke-width="1" stroke-dasharray="5 9"/>
+
+  <g font-family="Arial, sans-serif">
+    <rect x="54" y="178" width="150" height="74" rx="16" fill="#10213f" stroke="#6de1d3"/>
+    <text x="129" y="207" text-anchor="middle" fill="#8ff5e3" font-size="12" font-weight="700" letter-spacing="1.5">LEARNING</text>
+    <text x="129" y="230" text-anchor="middle" fill="#d7e9ff" font-size="12">Build understanding</text>
+    <rect x="596" y="178" width="150" height="74" rx="16" fill="#10213f" stroke="#9a9cff"/>
+    <text x="671" y="207" text-anchor="middle" fill="#bdbaff" font-size="12" font-weight="700" letter-spacing="1.5">INTEGRITY</text>
+    <text x="671" y="230" text-anchor="middle" fill="#d7e9ff" font-size="12">Own your work</text>
+  </g>
+  <rect x="230" y="355" width="340" height="43" rx="21" fill="#10213f" stroke="#65dfd6"/>
+  <text x="400" y="382" text-anchor="middle" fill="#e5ffff" font-family="Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="2">VERIFY • DISCLOSE • TAKE RESPONSIBILITY</text>
+</svg>

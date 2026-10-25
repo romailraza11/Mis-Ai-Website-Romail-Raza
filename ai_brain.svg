@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-labelledby="title desc">
+  <title id="title">Artificial intelligence and ethical learning</title>
+  <desc id="desc">A luminous neural brain connects learning, human review, and ethical choices.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#101333"/><stop offset=".55" stop-color="#282052"/><stop offset="1" stop-color="#103c59"/>
+    </linearGradient>
+    <linearGradient id="brain" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#91fff1"/><stop offset=".48" stop-color="#6fa8ff"/><stop offset="1" stop-color="#c48dff"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop stop-color="#946dff" stop-opacity=".35"/><stop offset="1" stop-color="#946dff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#b8c9ff" stroke-opacity=".06"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="450" rx="26" fill="url(#bg)"/>
+  <rect width="800" height="450" rx="26" fill="url(#grid)"/>
+  <ellipse cx="400" cy="210" rx="220" ry="180" fill="url(#halo)"/>
+  <text x="42" y="52" fill="#c4c5ef" font-family="Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="3">AI • LEARNING • HUMAN JUDGMENT</text>
+
+  <g fill="none" stroke="#98a8ff" stroke-opacity=".5" stroke-width="2">
+    <path d="M102 142L220 190L282 126L352 170L400 112L448 170L518 126L580 190L698 142"/>
+    <path d="M110 300L236 250L300 316L360 276L400 340L440 276L500 316L564 250L690 300"/>
+    <path d="M220 190L236 250M282 126L300 200L300 316M352 170L360 276M448 170L440 276M518 126L500 200L500 316M580 190L564 250"/>
+  </g>
+  <g fill="#c1c9ff" filter="url(#glow)">
+    <circle cx="102" cy="142" r="6"/><circle cx="220" cy="190" r="6"/><circle cx="282" cy="126" r="6"/>
+    <circle cx="352" cy="170" r="6"/><circle cx="400" cy="112" r="6"/><circle cx="448" cy="170" r="6"/>
+    <circle cx="518" cy="126" r="6"/><circle cx="580" cy="190" r="6"/><circle cx="698" cy="142" r="6"/>
+    <circle cx="110" cy="300" r="6"/><circle cx="236" cy="250" r="6"/><circle cx="300" cy="316" r="6"/>
+    <circle cx="360" cy="276" r="6"/><circle cx="400" cy="340" r="6"/><circle cx="440" cy="276" r="6"/>
+    <circle cx="500" cy="316" r="6"/><circle cx="564" cy="250" r="6"/><circle cx="690" cy="300" r="6"/>
+  </g>
+
+  <path d="M400 122C370 88 310 101 301 151C260 164 263 215 291 230C267 274 304 309 348 291L400 260Z" fill="url(#brain)" fill-opacity=".92" stroke="#dcffff" stroke-width="2"/>
+  <path d="M400 122C430 88 490 101 499 151C540 164 537 215 509 230C533 274 496 309 452 291L400 260Z" fill="url(#brain)" fill-opacity=".92" stroke="#dcffff" stroke-width="2"/>
+  <path d="M400 126V288" stroke="#f3ffff" stroke-opacity=".85" stroke-width="3"/>
+  <g fill="none" stroke="#153260" stroke-opacity=".72" stroke-width="4" stroke-linecap="round">
+    <path d="M337 145L365 168L338 195L370 221L345 255"/>
+    <path d="M463 145L435 168L462 195L430 221L455 255"/>
+  </g>
+  <g fill="#f4ffff" filter="url(#glow)">
+    <circle cx="337" cy="145" r="5"/><circle cx="365" cy="168" r="5"/><circle cx="338" cy="195" r="5"/>
+    <circle cx="370" cy="221" r="5"/><circle cx="345" cy="255" r="5"/><circle cx="463" cy="145" r="5"/>
+    <circle cx="435" cy="168" r="5"/><circle cx="462" cy="195" r="5"/><circle cx="430" cy="221" r="5"/>
+    <circle cx="455" cy="255" r="5"/>
+  </g>
+
+  <g font-family="Arial, sans-serif" font-weight="700" font-size="12" letter-spacing="1.5">
+    <rect x="82" y="355" width="166" height="40" rx="20" fill="#17234a" stroke="#8d8eff"/>
+    <text x="165" y="380" text-anchor="middle" fill="#d9d8ff">ASK &amp; EXPLORE</text>
+    <rect x="317" y="355" width="166" height="40" rx="20" fill="#17234a" stroke="#69e8d9"/>
+    <text x="400" y="380" text-anchor="middle" fill="#b6fff1">VERIFY &amp; THINK</text>
+    <rect x="552" y="355" width="166" height="40" rx="20" fill="#17234a" stroke="#c494ff"/>
+    <text x="635" y="380" text-anchor="middle" fill="#e5d3ff">USE ETHICALLY</text>
+  </g>
+</svg>
